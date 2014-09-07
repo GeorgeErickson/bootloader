@@ -1,12 +1,12 @@
 {
   "name": "bootloader",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A library to bootload and DI modules",
   "main": "./index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
-  "author": "",
+  "author": "George Erickson <me@gee.io>",
   "license": "ISC",
   "dependencies": {
     "toposort": "^0.2.10",
